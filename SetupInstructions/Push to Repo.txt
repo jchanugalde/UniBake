@@ -1,0 +1,37 @@
+*NOTE: BEFORE EVEN EDITING CODE, PULL FROM REPO*
+-Make sure your code is up-to-date
+
+	git pull https://github.com/MBogert/UniBake
+
+-If it's not letting you pull, chances are that you made a change in the repo on your laptop before pulling. Here's the workaround
+
+	git pull https://github.com/MBogert/UniBake --allow-unrelated-histories
+
+-It'll pull, despite changes, but be cautious about this, because maybe you want the repo code as opposed to whatever code you may have. Just remember to pull before editing/adding anything.
+
+
+
+How to push changes to GitHub
+
+1. Add files you want to make changes to.
+
+	git add <fileName>
+
+	Do this for every file that you changed and want to push changes to
+
+2. Commit the changes
+
+	git commit -m <Message>
+
+	This sets things up to be pushed. Be sure to provide a short message, explaining what changes you made (e.g. "Modified user login")
+
+3. Push changes
+
+	git push origin master
+
+	It'll ask for authentication. Since it's on my account, here's the login info.
+
+	UserName: MBogert
+	Password: ensalada888lettuce
+
+Done

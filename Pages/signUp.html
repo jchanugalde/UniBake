@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+
+  <meta charset="utf-8">
+  <!-- Latest compiled and minified CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+  <title>Sign Up</title> 
+
+</head>
+
+<body slyle="color:#b3000">
+
+	<!--Information for a new user-->
+	<form action="../FormHandling/addUser.php" method="post">
+
+		Name: <input type = "text" name = "name" required = ""/><br/>
+
+		Phone: <input type = "text" name = "phone" required = "^\d{3}-\d{3}-\d{4}"/><br/>
+
+		Email: <input type = "email" name = "email" required = ""/><br/>
+
+		Password: <input type = "text" name = "password" required = ""/><br/>
+
+		<input type = "submit"/>
+
+	</form>
+
+</body>

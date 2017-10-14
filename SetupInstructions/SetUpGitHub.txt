@@ -1,0 +1,25 @@
+How to SetUp GitHub on your Laptops
+
+Install GitBash (Pretty nice)
+
+1. Make your repo directory
+
+This is where the code will go on your laptop. Create a directory name 'UniBake', cd into that.
+
+	git init
+
+It is now a git repository.
+
+2. Add the origin
+
+	git remote add origin https://github.com/MBogert/UniBake
+
+This is where the repo is stored on github, verify that this worked with this command.
+
+	git remote -v
+
+Make sure that the URL that comes up is the same one as above.
+
+Now we can code! Don't forget to pull the current code on your repo before starting.
+
+	git pull https://github.com/MBogert/UniBake
